@@ -2,7 +2,7 @@ var sortByStrings = function(s, t) {
   let output = '';
   let letters = {};
 
-  for (let i  = 0; i < s.length; i++) {
+  for (let i = 0; i < s.length; i++) {
     letters[s[i]] ? letters[s[i]]++ : letters[s[i]] = 1;
   }
 
